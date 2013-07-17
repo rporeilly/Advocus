@@ -1,0 +1,101 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+
+h2 {
+  font-style: 25px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#header-inner,
+#highlight-inner,
+#content-inner,
+#footer-inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#header {
+  background: url(../images/header-bg.png) repeat;
+  padding-bottom: 45px;
+}
+
+#branding {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 35px;
+  width: 940px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+#branding #logo {
+  float: left;
+}
+
+#branding .links {
+  float: right;
+  padding-top: 10px;
+}
+
+#branding .links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+#header h2 {
+  color: #fff;
+  margin: 0;
+}
+
+#header-shadow {
+  background: url(../images/highlight-shadow.png) no-repeat center top;
+  width: 960px;
+  height: 19px;
+  margin: 0 auto -19px;
+  position: relative;
+  z-index: 2;
+}
+
+#highlight {
+  min-height: 200px;
+  background: url(../images/lightblue-bg.png) repeat;
+}
+
+#highlight-shadow {
+  background: url(../images/content-shadow.png) no-repeat center top;
+  width: 960px;
+  height: 19px;
+  margin: 0 auto -19px;
+  position: relative;
+  z-index: 2;
+}
+
+#content {
+  min-height: 200px;
+  background: url(../images/white-bg.png) repeat;
+}
+
+#footer {
+  min-height: 160px;
+  background: url(../images/footer-bg.png) repeat;
+  -moz-box-shadow:    inset 0 5px 10px #153d50;
+  -webkit-box-shadow: inset 0 5px 10px #153d50;
+  box-shadow:         inset 0 5px 10px #153d50;
+}
