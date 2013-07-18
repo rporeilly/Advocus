@@ -3,6 +3,7 @@ body {
   font-weight: 500;
   margin: 0;
   padding: 0;
+  background: url(../images/lightblue-bg.png) repeat;
 }
 
 ::-moz-selection {
@@ -165,7 +166,8 @@ textarea#copy-code {
   margin-left: -60px;
 }
 
-#get-code a {
+#get-code a,
+#contact-btn {
   color: #fff;
   margin-left: 5px;
   padding: 9px 22px 8px;
