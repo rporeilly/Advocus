@@ -189,6 +189,7 @@ textarea:focus, input:focus{
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3f86a9), color-stop(1, #3a7b9b));
   background-image: -webkit-linear-gradient(top, #3f86a9 0%, #3a7b9b 100%);
   background-image: linear-gradient(to bottom, #3f86a9 0%, #3a7b9b 100%);
+  background: #3a7b9b;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
