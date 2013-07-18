@@ -57,7 +57,6 @@ textarea {
   padding: 10px 15px;
   margin-top: 5px;
   font-size: 16px;
-  overflow: auto;
 }
 
 #header-inner,
@@ -165,6 +164,7 @@ textarea#copy-code {
   height: 70px;
   width: 430px;
   resize: none;
+  overflow: auto;
 }
 
 textarea:focus, input:focus{
