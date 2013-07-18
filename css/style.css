@@ -52,6 +52,7 @@ textarea {
   box-shadow: inset 5px 5px 10px #b4b6b5;
   padding: 10px 15px;
   margin-top: 5px;
+  font-size: 16px;
 }
 
 #header-inner,
