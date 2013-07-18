@@ -134,9 +134,12 @@ textarea {
 }
 
 #widget {
-  width: 335px;
-  height: 120px;
   float: left;
+  height: 120px;
+  left: 50px;
+  position: relative;
+  top: 48px;
+  width: 345px;
 }
 
 #get-code {
@@ -277,5 +280,24 @@ textarea#copy-code {
   float: left;
   margin: 15px 70px 0 0;
 }
+
+/* Add to widget CSS */
+
+/*
+body {
+  backround: none;
+}
+.mentor-light {
+  background: #FFFFFF;
+  border: 1px solid #c7c7c7;
+  border-radius: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+.mentor-container {
+  height: 100px;
+  width: 315px;
+}
+*/
 
 
