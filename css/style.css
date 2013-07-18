@@ -161,6 +161,10 @@ textarea#copy-code {
   resize: none;
 }
 
+textarea:focus, input:focus{
+  outline: 0;
+}
+
 #get-code img {
   margin-bottom: 20px;
   margin-left: -60px;
